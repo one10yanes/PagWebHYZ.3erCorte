@@ -1,7 +1,20 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+import { PginicioComponent } from './pginicio/pginicio.component';
+import { PgqsComponent } from './pgqs/pgqs.component';
+
+
+
+const routes: Routes = [
+{path: 'pginicio', component:PginicioComponent },
+{path: 'pgqs', component:PgqsComponent },
+
+
+
+{path: '', component:PginicioComponent }
+
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
