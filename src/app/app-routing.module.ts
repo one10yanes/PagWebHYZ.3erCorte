@@ -12,7 +12,7 @@ const routes: Routes = [
 
 
 
-{path: '', component:PginicioComponent }
+{path: '', component:PgqsComponent }
 
 ];
 
